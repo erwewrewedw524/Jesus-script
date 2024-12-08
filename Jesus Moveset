@@ -52,7 +52,7 @@ local baseButton = hotbarFrame:FindFirstChild("3").Base
 local ToolName = baseButton.ToolName
  
  
-ToolName.Text = "I Think you mean "Bread" "
+ToolName.Text = "I Think you mean Bread"
  
  
 local player = game.Players.LocalPlayer

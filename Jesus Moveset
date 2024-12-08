@@ -254,22 +254,6 @@ for _, animTrack in pairs(Humanoid:GetPlayingAnimationTracks()) do
     animTrack:Stop()
  
 end
-
-local Test = game.ReplicatedStorage.Resources.FinalEffects.FinalHitEffect.Ground.Center
-local test = Test:Clone()
-test.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
-
-
-for _, child in ipairs(test:GetChildren()) do
-    if child:IsA("ParticleEmitter") then
-        
-
-        child:Emit(15)
-        child.Enabled = true
-   task.delay(1.5,  function() child:Destroy() end)
-    end
-end
-
  
 local AnimAnim = Instance.new("Animation")
  
@@ -283,22 +267,24 @@ local startTime = 0.3
  
 Anim:Play()
  
-Anim:AdjustSpeed(0)
- 
 Anim.TimePosition = startTime
- 
 Anim:AdjustSpeed(1)
  
+local GrounfFX = game.ReplicatedStorage.Resources.FinalEffects.FinalHitEffect.Ground.Center
+local GroundFX = GroundFX:Clone()
+GroundFX.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+for _, child in ipairs(GroundFX:GetChildren()) do
+    if child:IsA("ParticleEmitter") then
+
+        child:Emit(5)
+    end
+end
  
 delay(1.8, function()
- 
     Anim:Stop()
- 
 end)
- 
- 
+
     end
- 
 end
  
 --[[END OF MOVE 3 ANIM]]

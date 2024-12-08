@@ -223,9 +223,9 @@ end
  
 --[[END OF MOVE 2 ANIM]]
  
---[[Move 3]]
+ --[[Move 3]]
  
-
+ 
 humanoid.AnimationPlayed:Connect(onAnimationPlayed)
  
  
@@ -254,9 +254,8 @@ for , animTrack in pairs(Humanoid:GetPlayingAnimationTracks()) do
     animTrack:Stop()
  
 end
- 
-  local function vfx()
- local Test = game.ReplicatedStorage.Resources.FinalEffects.FinalHitEffect.Ground.Center
+
+local Test = game.ReplicatedStorage.Resources.FinalEffects.FinalHitEffect.Ground.Center
 local test = Test:Clone()
 test.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
 
@@ -267,13 +266,11 @@ for , child in ipairs(test:GetChildren()) do
 
         child:Emit(15)
         child.Enabled = true
-task.delay(5,  function() child:Destroy() end)
+task.delay(0.5,  function() child:Destroy() end)
     end
 end
-end
-vfx()
 
-
+ 
 local AnimAnim = Instance.new("Animation")
  
 AnimAnim.AnimationId = "rbxassetid://17838619895"

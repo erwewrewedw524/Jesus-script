@@ -15,7 +15,7 @@ local baseButton = hotbarFrame:FindFirstChild("1").Base
 local ToolName = baseButton.ToolName
  
  
-ToolName.Text = "My Hands are a temple!"
+ToolName.Text = "My Hands Must Be a Temple!"
  
  
 local player = game.Players.LocalPlayer
@@ -94,7 +94,7 @@ local function findGuiAndSetText()
  
             if textLabel then
  
-                textLabel.Text = "Judgement Day"
+                textLabel.Text = "Because THESE FIST ARE OPEN FOR BUSSNIESS!"
  
             end
  

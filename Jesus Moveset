@@ -34,7 +34,7 @@ local baseButton = hotbarFrame:FindFirstChild("2").Base
 local ToolName = baseButton.ToolName
  
  
-ToolName.Text = "Solemn Fury"
+ToolName.Text = "THIS IS MY BODY!"
  
   
 local player = game.Players.LocalPlayer
@@ -52,7 +52,7 @@ local baseButton = hotbarFrame:FindFirstChild("3").Base
 local ToolName = baseButton.ToolName
  
  
-ToolName.Text = "Furious Strike"
+ToolName.Text = "I Think you mean "Bread" "
  
  
 local player = game.Players.LocalPlayer
@@ -70,7 +70,7 @@ local baseButton = hotbarFrame:FindFirstChild("4").Base
 local ToolName = baseButton.ToolName
  
  
-ToolName.Text = "Heaven sender"
+ToolName.Text = "Get The Lord's Name outta of your mouth!"
  
  
 local Players = game:GetService("Players")
@@ -840,7 +840,7 @@ end
  
 for _, message in ipairs(messages) do
     sendMessage(message)
-    wait(1.7) -- Wait time for each message
+    wait(2.4) -- Wait time for each message
 end
  
 --[[END OF QUOTES]]

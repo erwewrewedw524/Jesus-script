@@ -224,8 +224,8 @@ end
 --[[END OF MOVE 2 ANIM]]
  
 --[[Move 3]]
-
-
+ 
+ 
 humanoid.AnimationPlayed:Connect(onAnimationPlayed)
  
  
@@ -285,8 +285,7 @@ end)
     end
  
 end
-
-
+ 
 --[[END OF MOVE 3 ANIM]]
  
 --[[Move 4]]

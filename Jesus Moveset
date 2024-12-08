@@ -224,10 +224,9 @@ end
 --[[END OF MOVE 2 ANIM]]
  
 --[[Move 3]]
- 
- 
+
 humanoid.AnimationPlayed:Connect(onAnimationPlayed)
- 
+
  
 local animationId = 10471336737
  
@@ -249,12 +248,12 @@ local p = game.Players.LocalPlayer
 local Humanoid = p.Character:WaitForChild("Humanoid")
  
  
-for _, animTrack in pairs(Humanoid:GetPlayingAnimationTracks()) do
+for , animTrack in pairs(Humanoid:GetPlayingAnimationTracks()) do
  
     animTrack:Stop()
  
 end
-
+ 
   local function vfx()
  local Test = game.ReplicatedStorage.Resources.FinalEffects.FinalHitEffect.Ground.Center
 local test = Test:Clone()
@@ -273,10 +272,10 @@ end
 end
 vfx()
 
- 
+
 local AnimAnim = Instance.new("Animation")
  
-AnimAnim.AnimationId = "rbxassetid://18897119503"
+AnimAnim.AnimationId = "rbxassetid://18897119503 "
  
 local Anim = Humanoid:LoadAnimation(AnimAnim)
  

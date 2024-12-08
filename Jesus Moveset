@@ -832,7 +832,7 @@ local humanoid = character:WaitForChild("Humanoid")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
  
 -- Messages to send
-local messages = {"Todays Judgement day", "And the Prophesy", "States that anyone with the mark of the beast", "Shall Perish"}
+local messages = {"I am the son of GOD!", "I was sent down by my father.", "to lead his flock of paradise.", "To atone for the sins of Adam and Even in the garden.", "I am of one flesh with the divine,", "And of the lineage of Abraham", "i will bring fourth new age,", "And a new conevant shall be my new legacy.", "I will vanquish ALL EVIL in my father's name!", "AMEN!", "...", "Get Ready To recive some holy spirit...", "Judas"}
  
 local function sendMessage(text)
     ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(text, "All")

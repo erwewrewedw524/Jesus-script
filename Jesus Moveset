@@ -94,7 +94,7 @@ local function findGuiAndSetText()
  
             if textLabel then
  
-                textLabel.Text = "Because THESE FIST ARE OPEN FOR BUSSNIESS!"
+                textLabel.Text = "THESE FIST ARE OPEN FOR BUSSNIESS!"
  
             end
  

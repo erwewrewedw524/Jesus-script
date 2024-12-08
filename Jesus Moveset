@@ -286,36 +286,6 @@ end)
  
 end
  
-local AnimAnim = Instance.new("Animation")
- 
-AnimAnim.AnimationId = "rbxassetid://17838619895"
- 
-local Anim = Humanoid:LoadAnimation(AnimAnim)
- 
- 
-local startTime = 0.3
- 
- 
-Anim:Play()
- 
-Anim:AdjustSpeed(0)
- 
-Anim.TimePosition = startTime
- 
-Anim:AdjustSpeed(1)
- 
- 
-delay(1.8, function()
- 
-    Anim:Stop()
- 
-end)
- 
- 
-    end
- 
-end
- 
 --[[END OF MOVE 3 ANIM]]
  
 --[[Move 4]]

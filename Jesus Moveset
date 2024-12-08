@@ -225,8 +225,9 @@ end
  
 --[[Move 3]]
 
-humanoid.AnimationPlayed:Connect(onAnimationPlayed)
 
+humanoid.AnimationPlayed:Connect(onAnimationPlayed)
+ 
  
 local animationId = 10471336737
  
@@ -248,34 +249,16 @@ local p = game.Players.LocalPlayer
 local Humanoid = p.Character:WaitForChild("Humanoid")
  
  
-for , animTrack in pairs(Humanoid:GetPlayingAnimationTracks()) do
+for _, animTrack in pairs(Humanoid:GetPlayingAnimationTracks()) do
  
     animTrack:Stop()
  
 end
  
-  local function vfx()
- local Test = game.ReplicatedStorage.Resources.FinalEffects.FinalHitEffect.Ground.Center
-local test = Test:Clone()
-test.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
-
-
-for , child in ipairs(test:GetChildren()) do
-    if child:IsA("ParticleEmitter") then
-
-
-        child:Emit(15)
-        child.Enabled = true
-task.delay(5,  function() child:Destroy() end)
-    end
-end
-end
-vfx()
-
-
+ 
 local AnimAnim = Instance.new("Animation")
  
-AnimAnim.AnimationId = "rbxassetid://18897119503 "
+AnimAnim.AnimationId = "rbxassetid://17838619895"
  
 local Anim = Humanoid:LoadAnimation(AnimAnim)
  
@@ -302,7 +285,8 @@ end)
     end
  
 end
- 
+
+
 --[[END OF MOVE 3 ANIM]]
  
 --[[Move 4]]

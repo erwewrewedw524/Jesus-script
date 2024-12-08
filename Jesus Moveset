@@ -254,11 +254,11 @@ for _, animTrack in pairs(Humanoid:GetPlayingAnimationTracks()) do
     animTrack:Stop()
  
 end
-
+ 
  
 local AnimAnim = Instance.new("Animation")
  
-AnimAnim.AnimationId = "rbxassetid://18897119503"
+AnimAnim.AnimationId = "rbxassetid://17838619895"
  
 local Anim = Humanoid:LoadAnimation(AnimAnim)
  

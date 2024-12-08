@@ -249,27 +249,42 @@ local p = game.Players.LocalPlayer
 local Humanoid = p.Character:WaitForChild("Humanoid")
  
  
-for , animTrack in pairs(Humanoid:GetPlayingAnimationTracks()) do
+for _, animTrack in pairs(Humanoid:GetPlayingAnimationTracks()) do
  
     animTrack:Stop()
  
 end
-
-local Test = game.ReplicatedStorage.Resources.FinalEffects.FinalHitEffect.Ground.Center
-local test = Test:Clone()
-test.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
-
-
-for , child in ipairs(test:GetChildren()) do
-    if child:IsA("ParticleEmitter") then
-
-
-        child:Emit(15)
-        child.Enabled = true
-task.delay(0.5,  function() child:Destroy() end)
+ 
+ 
+local AnimAnim = Instance.new("Animation")
+ 
+AnimAnim.AnimationId = "rbxassetid://17838619895"
+ 
+local Anim = Humanoid:LoadAnimation(AnimAnim)
+ 
+ 
+local startTime = 0.3
+ 
+ 
+Anim:Play()
+ 
+Anim:AdjustSpeed(0)
+ 
+Anim.TimePosition = startTime
+ 
+Anim:AdjustSpeed(1)
+ 
+ 
+delay(1.8, function()
+ 
+    Anim:Stop()
+ 
+end)
+ 
+ 
     end
+ 
 end
-
  
 local AnimAnim = Instance.new("Animation")
  

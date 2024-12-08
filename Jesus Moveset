@@ -266,6 +266,7 @@ for _, child in ipairs(test:GetChildren()) do
 
         child:Emit(15)
         child.Enabled = true
+task.delay(5,  function() child:Destroy() end)
     end
 end
 

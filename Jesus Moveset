@@ -496,11 +496,11 @@ local startTime = 0
  
 Anim:Play()
  
-Anim:AdjustSpeed(0)
+Anim:AdjustSpeed(1.3)
  
 Anim.TimePosition = startTime
  
-Anim:AdjustSpeed(1.3)
+Anim:AdjustSpeed(2.5)
  
  
 delay(1.8, function()
@@ -649,11 +649,11 @@ local animationIdsToStop = {
  
     [10469493270] = true, --punch1
  
-    [18716477298] = true, --punch2
+    [10469630950] = true, --punch2
  
     [10469639222] = true, --punch3
  
-    [18716001119] = true, --punch4
+    [10469643643] = true, --punch4
  
 }
  
@@ -662,11 +662,11 @@ local replacementAnimations = {
  
     ["10469493270"] = "rbxassetid://17889458563", --punch1
  
-    ["18716477298"] = "rbxassetid://18716477298", --punch2
+    ["10469630950"] = "rbxassetid://17889461810", --punch2
  
     ["10469639222"] = "rbxassetid://17889471098", --punch3
  
-    ["18716001119"] = "rbxassetid://18716001119", --punch4
+    ["10469643643"] = "rbxassetid://17889290569", --punch4
  
     ["17859015788"] = "rbxassetid://12684185971", --downslam finisher
  

@@ -15,12 +15,11 @@ local baseButton = hotbarFrame:FindFirstChild("1").Base
 local ToolName = baseButton.ToolName
  
  
-ToolName.Text = "My Hands Must Be a Temple!"
+ToolName.Text = "My Hands Must Be Temple!"
  
  
 local player = game.Players.LocalPlayer
  
-
 local playerGui = player.PlayerGui
  
 local hotbar = playerGui:FindFirstChild("Hotbar")
@@ -34,9 +33,9 @@ local baseButton = hotbarFrame:FindFirstChild("2").Base
 local ToolName = baseButton.ToolName
  
  
-ToolName.Text = "THIS IS MY BODY!"
+ToolName.Text = "Agressive Beatdown"
  
-  
+ 
 local player = game.Players.LocalPlayer
  
 local playerGui = player.PlayerGui
@@ -52,7 +51,7 @@ local baseButton = hotbarFrame:FindFirstChild("3").Base
 local ToolName = baseButton.ToolName
  
  
-ToolName.Text = "I Think you mean Bread"
+ToolName.Text = "THIS IS MY BODY"
  
  
 local player = game.Players.LocalPlayer
@@ -70,7 +69,7 @@ local baseButton = hotbarFrame:FindFirstChild("4").Base
 local ToolName = baseButton.ToolName
  
  
-ToolName.Text = "Get The Lord's Name outta of your mouth!"
+ToolName.Text = "UpperStrike"
  
  
 local Players = game:GetService("Players")
@@ -94,7 +93,7 @@ local function findGuiAndSetText()
  
             if textLabel then
  
-                textLabel.Text = "THESE FIST ARE OPEN FOR BUSSNIESS!"
+                textLabel.Text = "Prime"
  
             end
  
@@ -142,7 +141,7 @@ end
  
 local AnimAnim = Instance.new("Animation")
  
-AnimAnim.AnimationId = "rbxassetid://18716667710"
+AnimAnim.AnimationId = "rbxassetid://18896127525"
  
 local Anim = Humanoid:LoadAnimation(AnimAnim)
  
@@ -152,11 +151,11 @@ local startTime = 0
  
 Anim:Play()
  
-Anim:AdjustSpeed(0.1)
+Anim:AdjustSpeed(1.3)
  
 Anim.TimePosition = startTime
  
-Anim:AdjustSpeed(1.9)
+Anim:AdjustSpeed(2.3)
  
  
     end
@@ -200,7 +199,7 @@ end
  
 local AnimAnim = Instance.new("Animation")
  
-AnimAnim.AnimationId = "rbxassetid://13560306510"
+AnimAnim.AnimationId = "rbxassetid://18716581594"
  
 local Anim = Humanoid:LoadAnimation(AnimAnim)
  
@@ -210,11 +209,11 @@ local startTime = 0
  
 Anim:Play()
  
-Anim:AdjustSpeed(3)
+Anim:AdjustSpeed(1)
  
 Anim.TimePosition = startTime
  
-Anim:AdjustSpeed(3)
+Anim:AdjustSpeed(1)
  
  
     end
@@ -223,7 +222,7 @@ end
  
 --[[END OF MOVE 2 ANIM]]
  
- --[[Move 3]]
+--[[Move 3]]
  
  
 humanoid.AnimationPlayed:Connect(onAnimationPlayed)
@@ -258,7 +257,7 @@ end
  
 local AnimAnim = Instance.new("Animation")
  
-AnimAnim.AnimationId = "rbxassetid://18716184869"
+AnimAnim.AnimationId = "rbxassetid://18897119503"
  
 local Anim = Humanoid:LoadAnimation(AnimAnim)
  
@@ -289,8 +288,8 @@ end
 --[[END OF MOVE 3 ANIM]]
  
 --[[Move 4]]
-
-
+ 
+ 
 humanoid.AnimationPlayed:Connect(onAnimationPlayed)
  
  
@@ -322,7 +321,7 @@ end
  
 local AnimAnim = Instance.new("Animation")
  
-AnimAnim.AnimationId = "rbxassetid://14900168720"
+AnimAnim.AnimationId = "rbxassetid://18179181663"
  
 local Anim = Humanoid:LoadAnimation(AnimAnim)
  
@@ -377,7 +376,7 @@ end
  
 local AnimAnim = Instance.new("Animation")
  
-AnimAnim.AnimationId = "rbxassetid://18903642853 "
+AnimAnim.AnimationId = "rbxassetid://15943915877"
  
 local Anim = Humanoid:LoadAnimation(AnimAnim)
  
@@ -433,7 +432,7 @@ end
  
 local AnimAnim = Instance.new("Animation")
  
-AnimAnim.AnimationId = "rbxassetid://16039070113"
+AnimAnim.AnimationId = "rbxassetid://17106858586 "
  
 local Anim = Humanoid:LoadAnimation(AnimAnim)
  
@@ -497,11 +496,11 @@ local startTime = 0
  
 Anim:Play()
  
-Anim:AdjustSpeed(2.5)
+Anim:AdjustSpeed(0)
  
 Anim.TimePosition = startTime
  
-Anim:AdjustSpeed(3.2)
+Anim:AdjustSpeed(1.3)
  
  
 delay(1.8, function()
@@ -521,7 +520,7 @@ end
 humanoid.AnimationPlayed:Connect(onAnimationPlayed)
  
  
-local animationId = 18535946209
+local animationId = 10503381238
  
  
 local player = game.Players.LocalPlayer
@@ -549,7 +548,7 @@ end
  
 local AnimAnim = Instance.new("Animation")
  
-AnimAnim.AnimationId = "rbxassetid://18179181663"
+AnimAnim.AnimationId = "rbxassetid://14900168720"
  
 local Anim = Humanoid:LoadAnimation(AnimAnim)
  
@@ -577,7 +576,7 @@ end
 humanoid.AnimationPlayed:Connect(onAnimationPlayed)
  
  
-local animationId = 18535943546
+local animationId = 10470104242
  
  
 local player = game.Players.LocalPlayer
@@ -605,7 +604,7 @@ end
  
 local AnimAnim = Instance.new("Animation")
  
-AnimAnim.AnimationId = "rbxassetid://114390778759539"
+AnimAnim.AnimationId = "rbxassetid://12447247483"
  
 local Anim = Humanoid:LoadAnimation(AnimAnim)
  
@@ -661,13 +660,13 @@ local animationIdsToStop = {
  
 local replacementAnimations = {
  
-    ["10469493270"] = "rbxassetid://18715994424", --punch1
+    ["10469493270"] = "rbxassetid://17889458563", --punch1
  
-    ["10469630950"] = "rbxassetid://18715817240", --punch2
+    ["10469630950"] = "rbxassetid://17889461810", --punch2
  
-    ["10469639222"] = "rbxassetid://16515448089", --punch3
+    ["10469639222"] = "rbxassetid://17889471098", --punch3
  
-    ["10469643643"] = "rbxassetid://18716001119", --punch4
+    ["10469643643"] = "rbxassetid://17889290569", --punch4
  
     ["17859015788"] = "rbxassetid://12684185971", --downslam finisher
  
@@ -832,7 +831,7 @@ local humanoid = character:WaitForChild("Humanoid")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
  
 -- Messages to send
-local messages = {"I am the son of GOD!", "I was sent down by my father.", "to lead his flock of paradise.", "To atone for the sins of Adam and Even in the garden.", "I am of one flesh with the divine,", "And of the lineage of Abraham", "i will bring fourth new age,", "And a new conevant shall be my new legacy.", "I will vanquish ALL EVIL in my father's name!", "AMEN!", "...", "Get Ready To recive some holy spirit...", "Judas"}
+local messages = {"MESSAGE x1", "MESSAGE x2", "MESSAGE x3", "MESSAGE x4"}
  
 local function sendMessage(text)
     ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(text, "All")
@@ -840,14 +839,14 @@ end
  
 for _, message in ipairs(messages) do
     sendMessage(message)
-    wait(2.4) -- Wait time for each message
+    wait(1.7) -- Wait time for each message
 end
  
 --[[END OF QUOTES]]
  
 --[[Idle Animation]]
  
-local animationId = "rbxassetid://18933416371" -- Replace with your animation ID
+local animationId = "rbxassetid://15099756132" -- Replace with your animation ID
 local player = game.Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
 local humanoid = character:WaitForChild("Humanoid")
@@ -1200,4 +1199,5 @@ Color3.fromRGB(0, 0, 255))} -- Change Color (Red, Green, Blue)
 end end)
  
 --[[END OF GAROU COLORS]]
+ 
  

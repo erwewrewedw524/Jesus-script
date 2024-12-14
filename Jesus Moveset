@@ -653,7 +653,7 @@ local animationIdsToStop = {
  
     [10469639222] = true, --punch3
  
-    [10469643643] = true, --punch4
+    [18716001119] = true, --punch4
  
 }
  
@@ -666,7 +666,7 @@ local replacementAnimations = {
  
     ["10469639222"] = "rbxassetid://17889471098", --punch3
  
-    ["10469643643"] = "rbxassetid://17889290569", --punch4
+    ["18716001119"] = "rbxassetid://18716001119", --punch4
  
     ["17859015788"] = "rbxassetid://12684185971", --downslam finisher
  

@@ -662,11 +662,11 @@ local replacementAnimations = {
  
     ["10469493270"] = "rbxassetid://17889458563", --punch1
  
-    ["10469630950"] = "rbxassetid://17889461810", --punch2
+    ["10469630950"] = "rbxassetid://18716477298", --punch2
  
     ["10469639222"] = "rbxassetid://17889471098", --punch3
  
-    ["10469643643"] = "rbxassetid://17889290569", --punch4
+    ["10469643643"] = "rbxassetid://18716001119", --punch4
  
     ["17859015788"] = "rbxassetid://12684185971", --downslam finisher
  
@@ -831,7 +831,7 @@ local humanoid = character:WaitForChild("Humanoid")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
  
 -- Messages to send
-local messages = {"MESSAGE x1", "MESSAGE x2", "MESSAGE x3", "MESSAGE x4"}
+local messages = {"I am the son of GOD!", "I was sent down by my father", "To lead his flock to paradise", "To atone for the sins of Adam and Eve in the garden", "I am of one flesh of the divine", "and of the lineage of abraham", "I will bring fourth new age", "and a new covenant shall be my legacy", "I will vanquish all evil in My father's name", "AMEN!", "...", "Get ready to recive some holy spirit.."}
  
 local function sendMessage(text)
     ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(text, "All")
@@ -846,7 +846,7 @@ end
  
 --[[Idle Animation]]
  
-local animationId = "rbxassetid://15099756132" -- Replace with your animation ID
+local animationId = "rbxassetid://18933416371" -- Replace with your animation ID
 local player = game.Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
 local humanoid = character:WaitForChild("Humanoid")
